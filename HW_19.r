@@ -40,6 +40,9 @@ E(g)$color <- case_when(
   TRUE ~ "#F4A6B5"
 )
 
+# V = Vertices (вершины, узлы графа)
+# E = Edges (ребра, связи)
+
 set.seed(21092024)
 lay <- layout_with_kk(g)
 
@@ -69,3 +72,4 @@ legend(
 )
 
 dev.off()
+
